@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class Program
 {
-    static Dictionary<string, DateTime> veiculos = new Dictionary<string, DateTime>();
+    static Chave <string, DateTime> veiculos = new Chave <string, DateTime>();
     //Dicionário para criar chaves de valor, no caso veiculos, dessa forma se cria propriedades dentro da keys-value
 
     static void Main()
